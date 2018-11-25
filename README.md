@@ -18,3 +18,19 @@
 
 Нужно переделать на рассчет или откуда-то брать.
 
+### Установка
+```bash
+git clone https://github.com/Darel13712/global_features.git
+cd global_fearues
+pip install -e .
+
+```
+
+### Использование
+```python
+import global_features as gf
+g = gf.GlobalFeatures()
+df = g.create()
+
+```
+
