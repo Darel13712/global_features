@@ -1,0 +1,4 @@
+include README.md
+
+recursive-include project *.json
+recursive-include project *.jbl
