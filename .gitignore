@@ -1,3 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
-.global_features.egg-info
-.idea
+Будет удалено .DS_Store
+Будет удалено global_features.egg-info/
+Будет удалено global_features/.DS_Store
+Будет удалено global_features/__pycache__/
+Будет удалено global_features/exchange_rate/__pycache__/
+Будет удалено global_features/holidays/__pycache__/
+Будет удалено global_features/weather/__pycache__/
+
+/.idea/
+/global_features.egg-info/
