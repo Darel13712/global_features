@@ -24,7 +24,7 @@ class GlobalFeatures(BaseFeature):
         for feature in feature_list:
             res.append(self.__create(feature))
         if len(res) > 1:
-            res = reduce(lambda left, right: pd.merge(left, right,on='date'), res)
+            res = reduce(lambda left, right: pd.merge(left, right,on='date', how='outer'), res)
         else:
             res = res[0]
         return res

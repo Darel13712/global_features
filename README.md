@@ -21,7 +21,7 @@
 ### Установка
 ```bash
 git clone https://github.com/Darel13712/global_features.git
-cd global_fearues
+cd global_features
 pip install -e .
 
 ```
